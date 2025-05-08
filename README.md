@@ -56,7 +56,7 @@ Feasibility:-
       		DOB : String
 		PatientDiseases : String
   		userId : long(auto generate)
-    		password : String
+    		password : String 
       		
 		
   		
