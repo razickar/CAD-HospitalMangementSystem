@@ -5,11 +5,13 @@ Title:- Healthcare
 
 Type:- B2B
 
-Target audience:- [patients, doctors, nurses, hospital staff, receptionists, lab technicians, admin team]
+Target audience:- [patients, doctors, nurses, hospital staff, receptionists, lab technicians]
 
 Budget:- currently time is budget.
 
 Members:- 1.
+
+# Kasi medu kasi
 
 Features:-
 
@@ -40,7 +42,6 @@ Feasibility:-
 	-doctor listing and search
 	-appointment booking and cancellation
 	-video call conselt with doctor
-	-prescription management
 	-digital reports
 	-payment system
 	-notification
@@ -50,14 +51,15 @@ Feasibility:-
  
  Data Model:-
 
- 	registeration - Class
-  		FirstName : String
-    		SecondName : String
-      		DOB : String
-		PatientDiseases : String
-  		userId : long(auto generate)
-    		password : String 
-      		
+ registeration - Class
+  	-FirstName : String
+    	-SecondName : String
+      	-DOB : String
+	-PatientDiseases : String
+  	-userId : long(auto generate)
+    	-password : String 
+      
+        
 		
   		
 
