@@ -41,24 +41,27 @@ Feasibility:-
 	-login
 	-doctor listing and search
 	-appointment booking and cancellation
-	-video call conselt with doctor
+	-video call conselt with doctor (Phase 2)
 	-digital reports
-	-payment system
+	-payment system (Phase 2)
 	-notification
-	-admin control 
-	-role-access
+	-receptionist control 
+	-role-access ( still loading mind)
 
  
  Data Model:-
 
- registeration - Class
-  	-FirstName : String
-    	-SecondName : String
-      	-DOB : String
-	-PatientDiseases : String
-  	-userId : long(auto generate)
-    	-password : String 
-      
+ # registration - Class
+
+ -- Registration for patient 
+ 
+    -Name: String
+    -DOB : String
+    -phone no : long
+    -PatientDiseases : String
+    -userId : long(auto generate) + enum(@staff,@doctor,@pateint,@Admin)
+    -password : String 
+ --    
         
 		
   		
