@@ -11,7 +11,6 @@ Budget:- currently time is budget.
 
 Members:- 1.
 
-# Kasi medu kasi
 
 Features:-
 
@@ -51,7 +50,7 @@ Feasibility:-
  
  Data Model:-
 
- # registration - Class
+ # Registration - Class
 
  -- Registration for patient 
  
@@ -61,10 +60,35 @@ Feasibility:-
     -PatientDiseases : String
     -userId : long(auto generate) + enum(@staff,@doctor,@pateint,@Admin)
     -password : String 
- --    
-        
-		
-  		
+    
+ -- Registration for doctor 
+ 
+    -Name: String
+    -DOB : String
+    -phone no : long
+    -which Specalist : String
+    -userId : long(auto generate) + enum(@staff,@doctor,@pateint,@Admin)
+    -password : String 
 
- 	
+
+ -- Registration for staff 
+ 
+    -Name: String
+    -DOB : String
+    -phone no : long
+    -Staff Role : String
+    -userId : long(auto generate) + enum(@staff,@doctor,@pateint,@Admin)
+    -password : String 	
+		
+ # Login - Class
+ 
+    -- UserId : long(auto generate) + enum(@staff,@doctor,@pateint,@Admin) this is regex for seperation
+    -- Password : String
+
+ # Appoinment / cancel  -  Class
+
+ -Choose doctor : String
+ -Choose Availabilty : long
+ -Description : String
+ -Cancellation *(use ing Map)
  	
