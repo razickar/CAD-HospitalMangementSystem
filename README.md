@@ -1,25 +1,25 @@
 # CAD-HospitalMangementSystem
 Project :- Hospital Management System
 
-Title :- HealthyCare
+Title:- Healthcare
 
-Type :- B2C
+Type:- B2B
 
-Target audience :- [patients, doctors, nurses, hospital staff, receptionists, lab technicians, admin team]
+Target audience:- [patients, doctors, nurses, hospital staff, receptionists, lab technicians, admin team]
 
-Budget :- currently time is budget.
+Budget:- currently time is budget.
 
-Members :- 1.
+Members:- 1.
 
-Features :-
+Features:-
 
 	-registration
 	  *patient
-	  *staff
+	  *Staff
 	  *doctor
 	-login for 
 	  *patient
-	  *staff
+	  *Staff
 	  *doctor
 	-doctor appointment booking
 	-doctor availability
@@ -29,10 +29,11 @@ Features :-
 	-filter 
 	-appointment notification
 	-contact info
-	-billing (different pay-ment method())
+	-billing (different payment method())
 	-admin dashboard (ellam irukum home page mari)
-	-acess based on user
-Feasibility :-
+	-access based on user
+ 
+Feasibility:-
 
 	-registration
 	-login
@@ -45,3 +46,20 @@ Feasibility :-
 	-notification
 	-admin control 
 	-role-access
+
+ 
+ Data Model:-
+
+ 	registeration - Class
+  		FirstName : String
+    		SecondName : String
+      		DOB : String
+		PatientDiseases : String
+  		userId : long(auto generate)
+    		password : String
+      		
+		
+  		
+
+ 	
+ 	
